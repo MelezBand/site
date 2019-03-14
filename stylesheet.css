@@ -23,7 +23,11 @@ li a:hover {
   background-color: #111;
 }
 
-/* Background color of active link pages will be #FFF (white) */
-.active {
-  background-color: #FFF;
+/* Background color of active link pages will be #808080 (grey) */
+li.active {
+  background-color: #808080;
+}
+
+li.active a:hover {
+  background-color: #808080;
 }
